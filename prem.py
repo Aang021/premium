@@ -46,12 +46,12 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 def login():
 	os.system('clear')
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token ")
-	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Beli License Key Pada Admin ")
-    print("\x1b[1;92m[\x1b[1;91m00\x1b[1;92m]\x1b[1;91m Keluar (Ahh Ngecrot) ")
+	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
+	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Beli License Key Pada Admin")
+    print("\x1b[1;92m[\x1b[1;91m00\x1b[1;92m]\x1b[1;91m Keluar (Ahh Ngecrot)")
 	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mWrong Input")
+		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mYang Bener Lah Kentod!!")
 	elif login == "1":
                 try:
 			token=raw_input("\x1b[1;96m[\x1b[1;97m?\x1b[1;96m]\x1b[1;97m Masukin Token Dulu Ngab :\x1b[1;92m ")
