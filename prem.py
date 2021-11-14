@@ -24,9 +24,9 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 #####################################
 logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __ 
-\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;93m•Code Aang-XD
+\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;93m•Code By Aang-XD
 \x1b[1;92m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;93m•Yt: Aang-XD
-\x1b[1;92m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;93m•Fb Saya Aang
+\x1b[1;92m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;93m•Fb: Saya Aang
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m╔═══════════════════════════════════════════════════╗
 \x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
 \x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
@@ -48,8 +48,8 @@ def login():
 	print(logo)
 	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
 	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
-	print("\x1b[1;92m[\x1b[1;93m00\x1b[1;92m]\x1b[1;93m Keluar [Ahh Ngecrot]")
-	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
+	print("\x1b[1;92m[\x1b[1;93m00\x1b[1;92m]\x1b[1;93m Keluar { Ahh Ngecrot }")
+	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Pilih :\x1b[1;96m ")
 	if login == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mIsi Yang Bener Kentod!!")
 	elif login == "1":
