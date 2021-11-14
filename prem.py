@@ -27,11 +27,11 @@ logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
 \x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;93m•Code Aang-XD
 \x1b[1;92m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;93m•Yt: Aang-XD
 \x1b[1;92m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;93m•Fb Saya Aang
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————————————
-\x1b[1;97m|\x1b[1;97m|\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
-\x1b[1;97m|\x1b[1;97m|\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
-\x1b[1;97m|\x1b[1;97m|\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————————————
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m╔═══════════════════════════════════════════════════════╗
+\x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
+\x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
+\x1b[1;97m║\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m╚═══════════════════════════════════════════════════════╝
 """)
 url=('http://ipinfo.io/json')
 response=urlopen(url)
@@ -46,12 +46,12 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 def login():
 	os.system('clear')
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Pakai Token")
-	print("\x1b[1;92m[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
-	print("\x1b[1;92m[\x1b[1;93m0\x1b[1;92m]\x1b[1;93m Keluar")
-	login = raw_input("\n\x1b[1;92m[\x1b[1;97m#\x1b[1;92m] Choose :\x1b[1;96m ")
+	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
+	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Cara Mendapat Token")
+	print("\x1b[1;92m[\x1b[1;93m00\x1b[1;92m]\x1b[1;93m Keluar [Ahh Ngecrot]")
+	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mWrong Input")
+		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mIsi Yang Bener Kentod!!")
 	elif login == "1":
                 try:
 			token=raw_input("\x1b[1;96m[\x1b[1;97m?\x1b[1;96m]\x1b[1;97m Masukin Token Dulu Ngab :\x1b[1;92m ")
