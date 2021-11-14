@@ -24,13 +24,13 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 #####################################
 logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __ 
-\x1b[1;99m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;92m•Code Aang-XD
-\x1b[1;91m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;96m•Yt: Aang-XD
-\x1b[1;91m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;96m•Fb Saya Aang
+\x1b[1;99m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;93m•Code Aang-XD
+\x1b[1;99m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;93m•Yt: Aang-XD
+\x1b[1;99m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;93m•Fb Saya Aang
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————————————
-\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Author  : Aang Ardiansyah-XD
-\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Github  : Github.com/AngCyber
-\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Facebook: Facebook.com/clubfunbike (Saya Aang)
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————————————
 """)
 url=('http://ipinfo.io/json')
@@ -48,7 +48,7 @@ def login():
 	print(logo)
 	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
 	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Cara Mendapatkan Token")
-	print("\x1b[1;92m[\x1b[1;93m00\x1b[1;92m]\x1b[1;93m Keluar (Ahh Ngecrot)")
+	print("\x1b[1;92m[\x1b[1;91m00\x1b[1;92m]\x1b[1;91m Keluar (Ahh Ngecrot)")
 	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
 		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mWrong Input")
