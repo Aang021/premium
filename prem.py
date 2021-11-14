@@ -27,11 +27,11 @@ logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
 \x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;93m•Code Aang-XD
 \x1b[1;92m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;93m•Yt: Aang-XD
 \x1b[1;92m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;93m•Fb Saya Aang
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m╔════════════════════════════════════════════════════╗
-\x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
-\x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
-\x1b[1;97m║\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m╚════════════════════════════════════════════════════╝
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m╔═══════════════════════════════════════════════════╗
+\x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD                                                                                            \x1b[1;97m║
+\x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber                                                                                         \x1b[1;97m║     
+\x1b[1;97m║\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)                                                      \x1b[1;97m║
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m╚═══════════════════════════════════════════════════╝
 """)
 url=('http://ipinfo.io/json')
 response=urlopen(url)
