@@ -24,14 +24,14 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 #####################################
 logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __ 
-\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;92m•Code by Aang-XD
+\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |\x1b[1;92m•Create Aang-XD
 \x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |\x1b[1;96m•Yt: Aang-XD
 \x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_|\x1b[1;96m•Fb Saya Aang
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Author  : Aang Ardiansyah-XD
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Github  : Github.com/AngCyber
-\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Facebook: Facebook.com/clubfunbike
-\x1b1\x1b[1;97m\x1b[\x1b[1;97m———————————————————————————————————————————
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m——————————————————————————————————————————————————
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Author  : Aang Ardiansyah-XD
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Github  : Github.com/AngCyber
+\x1b[1;95m|\x1b[1;97m•\x1b[1;95m|\x1b[1;97m Facebook: Facebook.com/clubfunbike (Saya Aang)
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m——————————————————————————————————————————————————
 """)
 url=('http://ipinfo.io/json')
 response=urlopen(url)
