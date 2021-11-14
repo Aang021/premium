@@ -27,11 +27,11 @@ logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
 \x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
 \x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
 \x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_| v2.7
-\x1b1;96m[\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Author   : Aang Ardiansyah-XD
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Github   : Github.com/AngCyber
 \x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m Facebook : Facebook.com/clubfunbike (Saya Aang)
-\x1b1;96m[\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
+\x1b1\x1b[1;97m\x1b[\x1b[1;97m————————————————————————————————————
 """)
 url=('http://ipinfo.io/json')
 response=urlopen(url)
@@ -77,7 +77,7 @@ def bot_follow():
 	try:
 		token=open('___rozhak___','r').read()
 	except IOError:
-		print ("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mCookie Invalid")
+		print ("\x1b[1;93m[\x1b[1;91m!\x1b[1;93m] \x1b[1;91mWaduh, Token Invalid Ngab!!")
 		os.system('rm -rf ___rozhak___')
 		time.sleep(2)
 		login()
@@ -107,7 +107,7 @@ def publik():
         try:
                 token=open('___rozhak___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m!\x1b[1;93m]\x1b[1;91m Cookies Invalid Ngab!!')
+                print('\x1b[1;93m[\x1b[1;91m!\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!')
                 os.system('rm -rf ___rozhak___')
                 time.sleep(2)
                 login()
@@ -147,7 +147,7 @@ def like_post():
         try:
                 token=open('___rozhak___','r').read()
         except IOError:
-		print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid')
+		print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!')
                 os.system('rm -rf ___rozhak___')
                 time.sleep(2)
                 login()
@@ -180,7 +180,7 @@ def follower():
         try:
                 token=open('___rozhak___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid')
+                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!')
                 os.system('rm -rf ___rozhak___')
                 time.sleep(2)
                 login()
@@ -220,7 +220,7 @@ def teman():
         try:
                 token=open('___rozhak___','r').read()
         except IOError:
-                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid')
+                print('\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!')
                 os.system('rm -rf ___rozhak___')
                 time.sleep(2)
                 login()
@@ -252,7 +252,7 @@ def menu():
 	try:
 		token=open('___rozhak___','r').read()
 	except IOError:
-		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid")
+		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!")
 		os.system('rm -rf ___rozhak___')
 		time.sleep(2)
 		login()
@@ -261,7 +261,7 @@ def menu():
 		a = json.loads(otw.text)
 		nama = a['name']
 	except KeyError:
-		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Cookie Invalid")
+		print("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Waduh, Token Invalid Ngab!!")
 		os.system('rm -rf ___rozhak___')
 		time.sleep(2)
 		login()
