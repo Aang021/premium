@@ -47,8 +47,7 @@ def login():
 	os.system('clear')
 	print(logo)
 	print("\x1b[1;92m[\x1b[1;97m01\x1b[1;92m]\x1b[1;97m Login Pakai Token")
-	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Cara Mendapatkan Token")
-	print("\x1b[1;92m[\x1b[1;91m03\x1b[1;92m]\x1b[1;91m Beli License Key Pada Admin")
+	print("\x1b[1;92m[\x1b[1;97m02\x1b[1;92m]\x1b[1;97m Beli License Key Pada Admin")
     print("\x1b[1;92m[\x1b[1;91m00\x1b[1;92m]\x1b[1;91m Keluar (Ahh Ngecrot)")
 	login = raw_input("\n\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] Choose :\x1b[1;96m ")
 	if login == "":
