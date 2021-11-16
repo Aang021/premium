@@ -29,9 +29,9 @@ logo = ("""\x1b[1;92m   ______     __ __       __
 \x1b[1;92m/ /___/ /  /__  __/ /__/ ,<   \x1b[1;93m||You tube: Aang-XD
 \x1b[1;92m\____/_/V2.9 /_/  \___/_/|_|  \x1b[1;93m||Facebook: Saya Aang
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m╔═══════════════════════════════════════════════════╗
-\x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
-\x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
-\x1b[1;97m║\x1b[1;97m Facebook: \x1b[1;93mFacebook.com/clubfunbike (Saya Aang)
+\x1b[1;97m║\x1b[1;97m Author   : \x1b[1;93mAang Ardiansyah-XD
+\x1b[1;97m║\x1b[1;97m Github   : \x1b[1;93mGithub.com/AngCyber
+\x1b[1;97m║\x1b[1;97m Contact : \x1b[1;93m089524163441
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m╚═══════════════════════════════════════════════════╝
 """)
 url=('http://ipinfo.io/json')
