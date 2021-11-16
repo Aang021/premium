@@ -23,11 +23,11 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 
 #####################################
-logo = ("""\x1b[1;92m  ______     __ __       __
-\x1b[1;92m. / ____/____/ // / _____/ /__
-\x1b[1;92m / /   / ___/ // /_/ ___/ //_/\x1b[1;93m•Code By Aang-XD
-\x1b[1;92m/ /___/ /  /__  __/ /__/ ,<\x1b[1;93m•Yt: Aang-XD
-\x1b[1;92m\____/_/     /_/  \___/_/|_|\x1b[1;93m•Fb: Saya Aang
+logo = ("""\x1b[1;92m   ______     __ __       __
+\x1b[1;92m  / ____/____/ // / _____/ /__
+\x1b[1;92m / /   / ___/ // /_/ ___/ //_/\x1b[1;92m•Created By Aang-XD
+\x1b[1;92m/ /___/ /  /__  __/ /__/ ,<\x1b[1;92m•You tube : Aang-XD
+\x1b[1;92m\____/_/     /_/  \___/_/|_|\x1b[1;92m•Facebook : Saya Aang
 \x1b1\x1b[1;97m\x1b[\x1b[1;97m╔═══════════════════════════════════════════════════╗
 \x1b[1;97m║\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
 \x1b[1;97m║\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
